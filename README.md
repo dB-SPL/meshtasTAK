@@ -13,7 +13,11 @@ It's my goal to create a Python module for full interoperabilty between Meshtast
 I'd love to hear your feedback on the ATAK Discord at https://discordapp.com/invite/XEPyhHA or the ATAK subreddit at https://www.reddit.com/r/ATAK/
 
 For more information, please visit:
+
 Meshtastic https://www.meshtastic.org/
+
 Meshtastic-Python https://github.com/meshtastic/Meshtastic-Python
+
 Free TAKServer https://github.com/FreeTAKTeam/FreeTAKServer
+
 takpak https://github.com/pinztrek/takpak
