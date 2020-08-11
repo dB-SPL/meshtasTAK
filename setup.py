@@ -5,15 +5,14 @@ with open("README.md", "r") as fh:
 
 setup(name='meshtasTAK',
       version='0.1.1',
-      description='Python library for using Meshtastic with TAK servers',
+      description='TAK Server and CoT Library',
       url='http://github.com/DeltaBravo15/meshtasTAK',
       author='DeltaBravo15',
       license='GPLv3+',
       packages=setuptools.find_packages(),
       install_requires=[
-        "https://github.com/pinztrek/takpak/archive/master.zip"
+		'takpak @ https://github.com/pinztrek/takpak/archive/master.zip'
 	  ],
-      zip_
       zip_safe=True,
       python_requires='>=3.6',
       classifiers=[
