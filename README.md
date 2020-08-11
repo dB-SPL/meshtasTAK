@@ -7,7 +7,7 @@ It requires a USB connection between the Meshtastic device and the device runnin
 ## Installation
 To install the module, use:
 
-python -m pip install https://github.com/DeltaBravo15/meshtasTAK/archive/master.zip
+    python -m pip install https://github.com/DeltaBravo15/meshtasTAK/archive/master.zip
 
 The installation process should also install the lastest version of takpak to create and read CoT messages.  If you have problems with the installation process, please let me know.
 
