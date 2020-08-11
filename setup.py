@@ -10,6 +10,10 @@ setup(name='meshtasTAK',
       author='DeltaBravo15',
       license='GPLv3+',
       packages=setuptools.find_packages(),
+      install_requires=[
+        "https://github.com/pinztrek/takpak/archive/master.zip"
+	  ],
+      zip_
       zip_safe=True,
       python_requires='>=3.6',
       classifiers=[
