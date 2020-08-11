@@ -21,16 +21,14 @@ from pubsub import pub
 
 sleeptime = 0.075
 
-arg_names = ['command', 'x', 'y', 'operation', 'option']
-args = dict(zip(arg_names, sys.argv))
 
 if len(sys.argv) < 2:
 	TAK_IP = 'localhost'
 	TAK_PORT = '8087'
-elif len(sys.argv) = 2:
+elif len(sys.argv) == 2:
 	TAK_IP = sys.argv[1]
 	TAK_PORT = 8087
-elif len(sys.argv) = 2:
+elif len(sys.argv) == 2:
 	TAK_IP = sys.argv[1]
 	TAK_PORT = sys.argv[2]
 
