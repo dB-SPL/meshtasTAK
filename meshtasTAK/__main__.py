@@ -28,7 +28,7 @@ if len(sys.argv) < 2:
 elif len(sys.argv) == 2:
 	TAK_IP = sys.argv[1]
 	TAK_PORT = 8087
-elif len(sys.argv) == 2:
+elif len(sys.argv) == 3:
 	TAK_IP = sys.argv[1]
 	TAK_PORT = sys.argv[2]
 
