@@ -9,7 +9,7 @@ setup(name='meshtasTAK',
       url='http://github.com/DeltaBravo15/meshtasTAK',
       author='DeltaBravo15',
       license='GPLv3+',
-      packages=setuptools.find_packages(),
+      packages='meshtasTAK',
       zip_safe=True,
       python_requires='>=3.6',
       classifiers=[
