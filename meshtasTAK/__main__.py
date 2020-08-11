@@ -21,15 +21,18 @@ from pubsub import pub
 
 sleeptime = 0.075
 
-if sys.argv[1]:
-	TAK_IP = sys.argv[1]
-else:
-	TAK_IP = 'localhost'
+arg_names = ['command', 'x', 'y', 'operation', 'option']
+args = dict(zip(arg_names, sys.argv))
 
-if sys.arg[2]:
-	TAK_PORT = sys.argv[2]
-else:
+if len(sys.argv) < 2:
+	TAK_IP = 'localhost'
+	TAK_PORT = '8087'
+elif len(sys.argv) = 2:
+	TAK_IP = sys.argv[1]
 	TAK_PORT = 8087
+elif len(sys.argv) = 2:
+	TAK_IP = sys.argv[1]
+	TAK_PORT = sys.argv[2]
 
 #TAK_IP = os.getenv('ATAK_IP', '204.48.30.216')
 #TAK_PORT = int(os.getenv('ATAK_PORT', '8087'))
