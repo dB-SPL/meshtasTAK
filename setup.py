@@ -9,7 +9,7 @@ setup(name='meshtasTAK',
       url='http://github.com/DeltaBravo15/meshtasTAK',
       author='DeltaBravo15',
       license='GPLv3+',
-      packages=['meshtasTAK']
+      packages=['meshtasTAK'],
       install_requires=[
 		'takpak @ https://github.com/pinztrek/takpak/archive/master.zip'
 	  ],

@@ -1,0 +1,9 @@
+README.md
+setup.py
+meshtasTAK/__main__.py
+meshtasTAK.egg-info/PKG-INFO
+meshtasTAK.egg-info/SOURCES.txt
+meshtasTAK.egg-info/dependency_links.txt
+meshtasTAK.egg-info/requires.txt
+meshtasTAK.egg-info/top_level.txt
+meshtasTAK.egg-info/zip-safe

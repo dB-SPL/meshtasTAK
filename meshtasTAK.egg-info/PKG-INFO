@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: meshtasTAK
+Version: 0.1.2
+Summary: TAK Server and CoT Library
+Home-page: http://github.com/DeltaBravo15/meshtasTAK
+Author: DeltaBravo15
+License: GPLv3+
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
