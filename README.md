@@ -6,12 +6,12 @@ It requires a USB connection between the Meshtastic device and the device runnin
 ## Installation
 To install the module, use:
 
-> pip install https://github.com/DeltaBravo15/meshtasTAK/archive/master.zip
+`pip install https://github.com/DeltaBravo15/meshtasTAK/archive/master.zip`
 
 The installation process should also install the lastest version of takpak to create and read CoT messages. If you have problems with the installation process, please let me know.
 
 ## Launching the Module
-python -m mestasTAK <TAKServer_IP> <TAKServer_Port>
+`python -m mestasTAK <TAKServer_IP> <TAKServer_Port>`
 
 You may optionally specify a TAK server IP address and port number. If not, the module will attempt to connect to the localhost on port 8087.
 
