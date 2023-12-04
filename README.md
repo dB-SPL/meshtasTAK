@@ -1,4 +1,8 @@
 # meshtasTAK
+Recently, the Meshtastic project has released their own plugin for ATAK, which may be more useful to you than this script that is no longer maintained.  You can find the official ATAK plugin from the Meshtastic project at:
+https://github.com/meshtastic/ATAK-Plugin
+
+## About
 This is a quick-and-dirty script for capturing position reports and messages from LoRa nodes on a Meshtastic network and sending them as Cursor-on-Target (CoT) messages to a TAK server such as FreeTakServer for display on connected clients such as phones running the Android Team Awareness Kit (ATAK).
 
 It requires a USB connection between the Meshtastic device and the device running the script as well as a TCP/IP network connection to the TAK server. The script uses the Meshtastic-Python API to communicate with the Meshtastic radio.
